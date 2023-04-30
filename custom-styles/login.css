@@ -1,0 +1,56 @@
+:root {
+    --gray: rgba(0, 0, 0, 0.5);
+    --white: #FFFFFF;
+    --green: #3DAB52;
+
+}
+body {
+    background: rgb(98,211,62);
+    background: linear-gradient(90deg, rgba(98,211,62,1) 0%, rgba(155,226,100,1) 49%, rgba(42,187,42,1) 100%);
+}
+.login {
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+    background-color: var(--white);
+    padding: 2em;
+    border-radius: 1em;
+    margin-top: 5em;
+}
+.login > div {
+    margin-top: 2em;
+}
+.login input{
+   border: none;
+   width: 250px;
+
+}
+.login i {
+    color: var(--gray);
+}
+.login input:focus {
+    outline: none;
+}
+hr {
+    padding: 0;
+    margin: 0;
+}
+.login button {
+    /*display: block;*/
+    /*width: 100;*/
+}
+.help-text {
+    color: var(--gray);
+    font-size: 14px;
+}
+.socials {
+    font-size: 24px;
+}
+.facebook i:hover {
+    color: #425992;
+}
+.twitter i:hover {
+    color: #4E9EE9;
+}
+.google i:hover {
+    color: #DE5042;
+}

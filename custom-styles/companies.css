@@ -1,0 +1,26 @@
+main {
+    margin-top: 3em;
+}
+.job {
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    margin: 1em 1em;
+}
+.company {
+    margin-top: 3em;
+}
+.carousel-buttons button {
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: none;
+}
+.carousel-buttons button:not(:hover) i {
+    color: var(--green);
+}
+.carousel-buttons button:hover {
+    border-radius: 50%;
+    background-color: var(--green);
+    color: var(--white);
+}

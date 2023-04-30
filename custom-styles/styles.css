@@ -1,0 +1,80 @@
+:root {
+    --gray: rgba(0, 0, 0, 0.5);
+    --white: #FFFFFF;
+    --green: #3DAB52;
+}
+
+header {
+    background-color: rgba(216, 216, 216, 0.3);
+}
+.green {
+    color: var(--green);
+}
+
+.btn-outline-green {
+    color: var(--green);
+    border-color: var(--green);
+}
+.btn-outline-green:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+.search {
+    background: var(--white);
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.search input {
+    outline: none;
+    border: none;
+    background: none;
+}
+.top-keyword {
+    font-size: 13px;
+}
+.rounded-16 {
+    border-radius: 16px;
+}
+.featured-jobs pre {
+    font-family: inherit;
+}
+.salary {
+    color: #0a53be;
+}
+.work-loc {
+    color: var(--gray);
+}
+main .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    border: none;
+}
+footer .container a {
+    color: var(--gray);
+    text-decoration: none;
+}
+footer .container ul{
+    list-style: none;
+    padding: 0;
+}
+.footer {
+    margin-top: 10em;
+    margin-bottom: 3em;
+}
+.social {
+    text-align: center;
+    margin-top: 2em;
+}
+.social a {
+    margin: 0 1em 0 1em;
+}
+.social a:hover {
+    color: var(--green);
+}
+.container .social a i {
+    font-size: 24px;
+}
+main.container > div {
+    margin-top: 8em;
+}
+.video {
+    margin: 5em 0 5em 0;
+}
